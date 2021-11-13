@@ -223,6 +223,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffff;
 }
 
+.header__menu .header__menu__login {
+  color: #ffff;
+}
+
 .header__menu .header_menu_button {
   background: url(../Images/Arrow.png) 90px 20px no-repeat;
   background-color: #FF7B52;
