@@ -1,0 +1,501 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.header {
+  background-color: #8D5CF6;
+  height: 825px;
+  padding-top: 30px;
+}
+
+.header__title {
+  padding-top: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+
+.header__maintitle {
+  padding-left: 220px;
+  padding-top: 220px;
+  width: 665px;
+  height: 160px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.header__subtitle {
+  width: 670px;
+  height: 60px;
+  padding-left: 250px;
+  padding-top: 80px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.header__subbuttons {
+  padding-right: 130px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.header__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__row__second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 140px;
+  height: 600px;
+}
+
+.header__menu {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.header__menu__button1 {
+  width: 170px;
+  background-color: #FF7B52;
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.header__menu__button2 {
+  margin-left: 5px;
+  width: 140px;
+  background: #8D5CF6;
+  border: 1px solid #FF7B52;
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #ffff;
+}
+
+.header__menu :visited {
+  color: #FFFFFF;
+}
+
+.header__menu .header__menu__href {
+  padding-left: 21px;
+}
+
+.header__menu .header_menu_button {
+  background: url(/Images/Arrow.png) 90px 20px no-repeat;
+  background-color: #FF7B52;
+  border-radius: 5px;
+  padding: 15px 52px 15px 25px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.header__menu :nth-child(5) {
+  padding-left: 400px;
+  padding-right: 50px;
+}
+
+.header__menu :nth-child(6) {
+  margin-right: 100px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0px auto;
+}
+
+.expertteachers {
+  height: 768px;
+  /*!!!!УБрать*/
+  background-color: #26335D;
+}
+
+.expertteachers__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.expertteachers__title {
+  padding-top: 100px;
+}
+
+.expertteachers__title__advice {
+  width: 114px;
+  height: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #8D5CF6;
+}
+
+.expertteachers__title__maintitle {
+  width: 419px;
+  height: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.expertteachers__title__problems {
+  width: 469px;
+  height: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+
+.expertteachers__images {
+  padding-top: 70px;
+}
+
+.expertteachers__row__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn {
+  width: 230px;
+  height: 292px;
+  background: #FFFFFF url(/Images/Book_Liberary.png) 35px 40px no-repeat;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn p:nth-child(1) {
+  padding-top: 130px;
+  padding-left: 40px;
+  color: #252B42;
+  width: 190px;
+  height: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn p:nth-child(2) {
+  background: url(/Images/Underline.png) 41px 35px no-repeat;
+  color: #737373;
+  padding-top: 50px;
+  padding-left: 40px;
+  width: 190px;
+  height: 60px;
+  left: 40px;
+  top: 197px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn2 {
+  margin: 40px 0 0 40px;
+  width: 230px;
+  height: 292px;
+  background: #FFFFFF url(/Images/Certified_Teacher.png) 35px 40px no-repeat;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn2 p:nth-child(1) {
+  padding-top: 130px;
+  padding-left: 40px;
+  color: #252B42;
+  width: 190px;
+  height: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn2 p:nth-child(2) {
+  background: url(/Images/Underline.png) 41px 35px no-repeat;
+  color: #737373;
+  padding-top: 50px;
+  padding-left: 40px;
+  width: 190px;
+  height: 60px;
+  left: 40px;
+  top: 197px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn3 {
+  margin: 0 0 0 50px;
+  width: 230px;
+  height: 292px;
+  background: #8D5CF6 url(/Images/Training_Courses.png) 35px 40px no-repeat;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn3 p:nth-child(1) {
+  padding-top: 130px;
+  padding-left: 40px;
+  color: #FFFFFF;
+  width: 190px;
+  height: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn3 p:nth-child(2) {
+  background: url(/Images/Underline_white.png) 41px 35px no-repeat;
+  color: #FFFFFF;
+  padding-top: 50px;
+  padding-left: 40px;
+  width: 190px;
+  height: 60px;
+  left: 40px;
+  top: 197px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn4 {
+  margin: 50px 0 0 50px;
+  width: 230px;
+  height: 292px;
+  background: #ffff url(/Images/online.png) 35px 40px no-repeat;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn4 p:nth-child(1) {
+  padding-top: 130px;
+  padding-left: 40px;
+  color: #252B42;
+  width: 230px;
+  height: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn4 p:nth-child(2) {
+  background: url(/Images/Underline.png) 41px 35px no-repeat;
+  color: #737373;
+  padding-top: 50px;
+  padding-left: 40px;
+  width: 190px;
+  height: 60px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.footer {
+  background-color: #FAFAFA;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 74px;
+}
+
+.footer__text {
+  width: 359px;
+  height: 24px;
+  margin-top: 25px;
+  margin-left: 125px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.footer__images {
+  margin-top: 25px;
+  margin-left: 520px;
+}
+
+.footer__images .footer__images__deeper {
+  margin-left: 22px;
+}
