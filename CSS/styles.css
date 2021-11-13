@@ -220,6 +220,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__menu .header__menu__href {
   padding-left: 21px;
+  color: #ffff;
 }
 
 .header__menu .header_menu_button {
