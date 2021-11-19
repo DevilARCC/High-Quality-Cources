@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__menu .header_menu_button {
-  background: url(../images/Arrow.jpg) 95px 20px no-repeat;
+  background: url(../images/Arrow.jpg) 96px 20px no-repeat;
   background-color: #FF7B52;
   border-radius: 5px;
   padding: 15px 52px 15px 25px;
@@ -317,51 +317,23 @@ h1, h2, h3, h4, h5, h6 {
 .expertteachers__row__images .expertteachers__images__flexcolumn {
   width: 230px;
   height: 292px;
-  background: #FFFFFF url(../images/Book_Liberary.png) 35px 40px no-repeat;
+  background-color: #FFFFFF;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn p:nth-child(1) {
-  padding-top: 130px;
-  padding-left: 40px;
-  color: #252B42;
-  width: 190px;
-  height: 24px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.1px;
+.expertteachers__row__images .expertteachers__images__flexcolumn .expertteachers__images__B_L {
+  width: 70px;
+  height: 78px;
+  margin-left: 37px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .expertteachers__row__images .expertteachers__images__flexcolumn p:nth-child(2) {
-  background: url(../images/Underline.png) 41px 35px no-repeat;
-  color: #737373;
-  padding-top: 50px;
-  padding-left: 40px;
-  width: 190px;
-  height: 60px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-}
-
-.expertteachers__row__images .expertteachers__images__flexcolumn2 {
-  margin: 40px 0 0 40px;
-  width: 230px;
-  height: 292px;
-  background: #FFFFFF url(../images/Certified_Teacher.png) 35px 40px no-repeat;
-}
-
-.expertteachers__row__images .expertteachers__images__flexcolumn2 p:nth-child(1) {
-  padding-top: 130px;
   padding-left: 40px;
   color: #252B42;
   width: 190px;
-  height: 24px;
+  height: 20px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -370,45 +342,9 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.1px;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn2 p:nth-child(2) {
-  background: url(../images/Underline.png) 41px 35px no-repeat;
+.expertteachers__row__images .expertteachers__images__flexcolumn p:nth-child(3) {
+  background: url(../images/Underline.jpg) 41px 30px no-repeat;
   color: #737373;
-  padding-top: 50px;
-  padding-left: 40px;
-  width: 190px;
-  height: 60px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-}
-
-.expertteachers__row__images .expertteachers__images__flexcolumn3 {
-  margin: 0 0 0 50px;
-  width: 230px;
-  height: 292px;
-  background: #8D5CF6 url(../images/Training_Courses.png) 35px 40px no-repeat;
-}
-
-.expertteachers__row__images .expertteachers__images__flexcolumn3 p:nth-child(1) {
-  padding-top: 130px;
-  padding-left: 40px;
-  color: #FFFFFF;
-  width: 190px;
-  height: 24px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-}
-
-.expertteachers__row__images .expertteachers__images__flexcolumn3 p:nth-child(2) {
-  background: url(../images/Underline_white.png) 41px 35px no-repeat;
-  color: #FFFFFF;
   padding-top: 50px;
   padding-left: 40px;
   width: 190px;
@@ -421,19 +357,27 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.2px;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn4 {
-  margin: 50px 0 0 50px;
+.expertteachers__row__images .expertteachers__images__flexcolumn2 {
+  margin: 40px 0 0 40px;
   width: 230px;
   height: 292px;
-  background: #ffff url(../images/online.png) 35px 40px no-repeat;
+  background-color: #FFFFFF;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn4 p:nth-child(1) {
-  padding-top: 130px;
+.expertteachers__row__images .expertteachers__images__flexcolumn2 .expertteachers__images__C_T {
+  width: 70px;
+  height: 78px;
+  margin-left: 37px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn2 p:nth-child(2) {
   padding-left: 40px;
   color: #252B42;
-  width: 230px;
-  height: 24px;
+  width: 190px;
+  height: 20px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -442,8 +386,96 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.1px;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn4 p:nth-child(2) {
-  background: url(../images/Underline.png) 41px 35px no-repeat;
+.expertteachers__row__images .expertteachers__images__flexcolumn2 p:nth-child(3) {
+  background: url(../images/Underline.jpg) 41px 30px no-repeat;
+  color: #737373;
+  padding-top: 50px;
+  padding-left: 40px;
+  width: 190px;
+  height: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.expertteachers .expertteachers__images__flexcolumn3 {
+  margin: 0 0 0 50px;
+  width: 230px;
+  height: 292px;
+  background-color: #8D5CF6;
+}
+
+.expertteachers .expertteachers__images__flexcolumn3 .expertteachers__images__T_C {
+  width: 70px;
+  height: 78px;
+  margin-left: 37px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.expertteachers .expertteachers__images__flexcolumn3 p:nth-child(2) {
+  padding-left: 40px;
+  color: #ffff;
+  width: 190px;
+  height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.expertteachers .expertteachers__images__flexcolumn3 p:nth-child(3) {
+  background: url(../images/Underline_white.jpg) 41px 30px no-repeat;
+  color: #ffff;
+  padding-top: 50px;
+  padding-left: 40px;
+  width: 190px;
+  height: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.expertteachers .expertteachers__images__flexcolumn4 {
+  margin: 50px 0 0 50px;
+  width: 230px;
+  height: 292px;
+  background-color: #ffff;
+}
+
+.expertteachers .expertteachers__images__flexcolumn4 .expertteachers__images__online {
+  width: 70px;
+  height: 78px;
+  margin-left: 37px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.expertteachers .expertteachers__images__flexcolumn4 p:nth-child(2) {
+  padding-left: 40px;
+  color: #252B42;
+  width: 230px;
+  height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.expertteachers .expertteachers__images__flexcolumn4 p:nth-child(3) {
+  background: url(../images/Underline.jpg) 41px 30px no-repeat;
   color: #737373;
   padding-top: 50px;
   padding-left: 40px;
