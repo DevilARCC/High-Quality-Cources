@@ -520,4 +520,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer__images .footer__images__deeper {
   margin-left: 22px;
+  width: 23px;
+  height: 23px;
 }
