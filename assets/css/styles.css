@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -98,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__title {
   padding-top: 8px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -112,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 220px;
   width: 665px;
   height: 160px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 58px;
@@ -127,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 60px;
   padding-left: 250px;
   padding-top: 80px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -139,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__subbuttons {
   padding-right: 130px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -174,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__menu {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -189,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #FF7B52;
   border-radius: 5px;
   padding: 15px 25px 15px 25px;
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -205,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #FF7B52;
   border-radius: 5px;
   padding: 15px 25px 15px 25px;
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -228,11 +227,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__menu .header_menu_button {
-  background: url(../Images/Arrow.png) 90px 20px no-repeat;
+  background: url(../images/Arrow.jpg) 100px 20px no-repeat;
   background-color: #FF7B52;
   border-radius: 5px;
   padding: 15px 52px 15px 25px;
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -246,10 +245,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 50px;
 }
 
-.header__menu :nth-child(6) {
-  margin-right: 100px;
-}
-
 .container {
   max-width: 1180px;
   margin: 0px auto;
@@ -257,7 +252,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .expertteachers {
   height: 768px;
-  /*!!!!УБрать*/
   background-color: #26335D;
 }
 
@@ -276,9 +270,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .expertteachers__title__advice {
-  width: 114px;
-  height: 24px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 37px;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -288,9 +281,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .expertteachers__title__maintitle {
-  width: 419px;
   height: 50px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -302,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
 .expertteachers__title__problems {
   width: 469px;
   height: 40px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -325,16 +317,24 @@ h1, h2, h3, h4, h5, h6 {
 .expertteachers__row__images .expertteachers__images__flexcolumn {
   width: 230px;
   height: 292px;
-  background: #FFFFFF url(../Images/Book_Liberary.png) 35px 40px no-repeat;
+  background-color: #FFFFFF;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn p:nth-child(1) {
-  padding-top: 130px;
+.expertteachers__row__images .expertteachers__images__flexcolumn .expertteachers__images__B_L {
+  width: 70px;
+  height: 78px;
+  margin-left: 37px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn p:nth-child(2) {
   padding-left: 40px;
   color: #252B42;
   width: 190px;
-  height: 24px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 20px;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -342,16 +342,16 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.1px;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn p:nth-child(2) {
-  background: url(../Images/Underline.png) 41px 35px no-repeat;
+.expertteachers__row__images .expertteachers__images__flexcolumn p:nth-child(3) {
+  background: url(../images/Underline.jpg) 41px 30px no-repeat;
   color: #737373;
   padding-top: 50px;
   padding-left: 40px;
   width: 190px;
   height: 60px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.2px;
@@ -361,16 +361,24 @@ h1, h2, h3, h4, h5, h6 {
   margin: 40px 0 0 40px;
   width: 230px;
   height: 292px;
-  background: #FFFFFF url(../Images/Certified_Teacher.png) 35px 40px no-repeat;
+  background-color: #FFFFFF;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn2 p:nth-child(1) {
-  padding-top: 130px;
+.expertteachers__row__images .expertteachers__images__flexcolumn2 .expertteachers__images__C_T {
+  width: 70px;
+  height: 78px;
+  margin-left: 37px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.expertteachers__row__images .expertteachers__images__flexcolumn2 p:nth-child(2) {
   padding-left: 40px;
   color: #252B42;
   width: 190px;
-  height: 24px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 20px;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -378,50 +386,14 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.1px;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn2 p:nth-child(2) {
-  background: url(../Images/Underline.png) 41px 35px no-repeat;
+.expertteachers__row__images .expertteachers__images__flexcolumn2 p:nth-child(3) {
+  background: url(../images/Underline.jpg) 41px 30px no-repeat;
   color: #737373;
   padding-top: 50px;
   padding-left: 40px;
   width: 190px;
   height: 60px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-}
-
-.expertteachers__row__images .expertteachers__images__flexcolumn3 {
-  margin: 0 0 0 50px;
-  width: 230px;
-  height: 292px;
-  background: #8D5CF6 url(../Images/Training_Courses.png) 35px 40px no-repeat;
-}
-
-.expertteachers__row__images .expertteachers__images__flexcolumn3 p:nth-child(1) {
-  padding-top: 130px;
-  padding-left: 40px;
-  color: #FFFFFF;
-  width: 190px;
-  height: 24px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-}
-
-.expertteachers__row__images .expertteachers__images__flexcolumn3 p:nth-child(2) {
-  background: url(../Images/Underline_white.png) 41px 35px no-repeat;
-  color: #FFFFFF;
-  padding-top: 50px;
-  padding-left: 40px;
-  width: 190px;
-  height: 60px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -429,20 +401,28 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.2px;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn4 {
-  margin: 50px 0 0 50px;
+.expertteachers .expertteachers__images__flexcolumn3 {
+  margin: 0 0 0 50px;
   width: 230px;
   height: 292px;
-  background: #ffff url(../Images/online.png) 35px 40px no-repeat;
+  background-color: #8D5CF6;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn4 p:nth-child(1) {
-  padding-top: 130px;
+.expertteachers .expertteachers__images__flexcolumn3 .expertteachers__images__T_C {
+  width: 70px;
+  height: 78px;
+  margin-left: 37px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.expertteachers .expertteachers__images__flexcolumn3 p:nth-child(2) {
   padding-left: 40px;
-  color: #252B42;
-  width: 230px;
-  height: 24px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #ffff;
+  width: 190px;
+  height: 20px;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -450,14 +430,58 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.1px;
 }
 
-.expertteachers__row__images .expertteachers__images__flexcolumn4 p:nth-child(2) {
-  background: url(../Images/Underline.png) 41px 35px no-repeat;
+.expertteachers .expertteachers__images__flexcolumn3 p:nth-child(3) {
+  background: url(../images/Underline_white.jpg) 41px 30px no-repeat;
+  color: #ffff;
+  padding-top: 50px;
+  padding-left: 40px;
+  width: 190px;
+  height: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.expertteachers .expertteachers__images__flexcolumn4 {
+  margin: 50px 0 0 50px;
+  width: 230px;
+  height: 292px;
+  background-color: #ffff;
+}
+
+.expertteachers .expertteachers__images__flexcolumn4 .expertteachers__images__online {
+  width: 70px;
+  height: 78px;
+  margin-left: 37px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.expertteachers .expertteachers__images__flexcolumn4 p:nth-child(2) {
+  padding-left: 40px;
+  color: #252B42;
+  width: 230px;
+  height: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.expertteachers .expertteachers__images__flexcolumn4 p:nth-child(3) {
+  background: url(../images/Underline.jpg) 41px 30px no-repeat;
   color: #737373;
   padding-top: 50px;
   padding-left: 40px;
   width: 190px;
   height: 60px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -477,11 +501,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__text {
-  width: 359px;
   height: 24px;
   margin-top: 25px;
   margin-left: 125px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
@@ -497,4 +520,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer__images .footer__images__deeper {
   margin-left: 22px;
+  width: 23px;
+  height: 23px;
 }
