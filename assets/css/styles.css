@@ -448,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 270px) {
+@media (max-width: 280px) {
   .expertteachers__row__images .expertteachers__images__flexcolumn2 {
     margin-right: 10px;
     margin-left: 10px;
@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 270px) {
+@media (max-width: 280px) {
   .expertteachers .expertteachers__images__flexcolumn3 {
     margin-right: 10px;
     margin-left: 10px;
@@ -562,7 +562,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 270px) {
+@media (max-width: 280px) {
   .expertteachers .expertteachers__images__flexcolumn4 {
     margin-right: 10px;
     margin-left: 10px;
