@@ -107,10 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__maintitle {
-  padding-left: 220px;
   padding-top: 220px;
-  width: 665px;
-  height: 160px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -122,10 +119,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__subtitle {
-  width: 670px;
-  height: 60px;
-  padding-left: 250px;
-  padding-top: 80px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -137,7 +130,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__subbuttons {
-  padding-right: 130px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -168,7 +160,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 140px;
   height: 600px;
 }
 
