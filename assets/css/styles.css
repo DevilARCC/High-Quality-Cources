@@ -704,8 +704,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .getqualityed__row__images .getqualityed__images__flexcolumn .getqualityed__images__B_L_Text {
-  margin-left: 25px p;
-  margin-left-margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.getqualityed__row__images .getqualityed__images__flexcolumn .getqualityed__images__B_L_Text p {
+  margin-bottom: 15px;
 }
 
 .getqualityed__row__images .getqualityed__images__flexcolumn .getqualityed__images__B_L_Text__Title {
@@ -832,22 +835,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .getqualityed__row__images .getqualityed__images__flexcolumn2 {
-  margin: 40px 0 0 40px;
+  margin: 0 0 0 40px;
   min-width: 238px;
   height: 602px;
   background-color: #FFFFFF;
 }
 
-@media (max-width: 1200px) {
-  .getqualityed__row__images .getqualityed__images__flexcolumn2 {
-    margin: 10px 30px 0 0;
-  }
-}
-
-@media (max-width: 280px) {
+@media (max-width: 375px) {
   .getqualityed__row__images .getqualityed__images__flexcolumn2 {
     margin-right: 10px;
     margin-left: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .getqualityed__row__images .getqualityed__images__flexcolumn2 {
+    margin: 10px 30px 0 0;
   }
 }
 
@@ -1156,7 +1159,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .getqualityed .getqualityed__images__flexcolumn4 {
-  margin: 40px;
+  margin: 0 0 0 40px;
   min-width: 238px;
   height: 600px;
   background-color: #ffff;
